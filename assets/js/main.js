@@ -55,7 +55,7 @@ let swiperPopular = new Swiper(".popular__container", {
       },
 }); 
 
-/*===MIXITUP FILTER FEATURED=== */
+/* ===MIXITUP FILTER FEATURED=== */
 
 let mixerFeatured = mixitup('.featured__content', {
     selectors: {
@@ -104,7 +104,7 @@ if(navToggle){
     })
 }
 
-/*===menu hidden=== */
+/* ===menu hidden=== */
 
 if(navClose){
     navClose.addEventListener('click', () =>{
@@ -112,7 +112,7 @@ if(navClose){
     })
 }
 
-/*===valid if constant exist=== */
+/* ===valid if constant exist=== */
 
 if(navClose){
     navClose.addEventListener('click', () =>{
@@ -120,7 +120,7 @@ if(navClose){
     })
 }
 
-/*===remove menu mobile=== */
+/* ===remove menu mobile=== */
 
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -132,7 +132,7 @@ function linkAction(){
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*=== CHANGE BACKGROUND HEADER === */
+/* === CHANGE BACKGROUND HEADER === */
 
 const scrollHeader = () =>{
     const header = document.getElementById('header')
@@ -144,7 +144,7 @@ window.addEventListener('scroll', scrollHeader)
 window.addEventListener('scroll', scrollHeader)
 
 
-/*=== SCROLL SECTIONS ACTIVE LINKS === */
+/* === SCROLL SECTIONS ACTIVE LINKS === */
 
 const sections = document.querySelectorAll('section[id]')
     
