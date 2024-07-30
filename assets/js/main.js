@@ -20,7 +20,7 @@ sr.reveal(`.features__map` , {delay:600, origin:'bottom'})
 sr.reveal(`.features__card` , {interval: 300})
 sr.reveal(`.featured__card, .footer__content` , {interval: 100});
 
-/*===  POPULAR SWIPER NB bad swiper=== */
+/* ===  POPULAR SWIPER NB bad swiper  === */
 
 let swiperPopular = new Swiper(".popular__container", {
     loop: true,
